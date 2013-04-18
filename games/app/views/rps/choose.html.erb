@@ -1,0 +1,21 @@
+<div>
+<h1> Rock, Paper, Scissors</h1>
+</div>
+<div>
+	<%= link_to "Play again", "/rps", :method => "get"%>
+	<%= @resultInfo%>
+</div>
+<div>
+<p>
+You choose <%= @userChoice%>
+</p>
+<%= image_tag @userPic %>
+</div>
+
+<div>
+<p>
+I choose <%= @cpuChoice%>
+</p>
+<%= image_tag @cpuPic %>
+</div>
+
